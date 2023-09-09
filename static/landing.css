@@ -146,7 +146,51 @@ footer p {
     color: #FFFFFF;
 }
 
+/* Center-align the About section */
+.centered {
+    text-align: center;
+}
+
+/* Style social media links */
+.social-links {
+    margin-top: 20px;
+}
+
+.twitter-link {
+    background-color: #1DA1F2;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.linkedin-link {
+    background-color: #0A66C2;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.github-link {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+/* Style social media links on hover */
+.social-links a:hover {
+    background-color: #555;
+}
+
+
 /* Responsive styles (add as needed) */
 @media screen and (max-width: 768px) {
     /* Add responsive styles here */
 }
+
