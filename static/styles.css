@@ -1,0 +1,70 @@
+/* Set the background color of the entire page to black (#000) and text color to white (#fff) */
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif; /* Use the Arial font or a sans-serif font as a fallback */
+}
+
+/* Center-align content within the container and add top margin of 50px */
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Style the stopwatch container */
+.stopwatch {
+    background-color: #333; /* Set background color to dark gray (#333) */
+    padding: 20px; /* Add padding around the stopwatch */
+    border-radius: 10px; /* Round the corners of the stopwatch */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2); /* Apply a subtle box shadow with a white color */
+}
+
+/* Style the stopwatch display element */
+#display {
+    font-size: 36px; /* Set the font size to 36 pixels */
+    margin-bottom: 20px; /* Add margin at the bottom of the display */
+}
+
+/* Style buttons within the 'buttons' class */
+.buttons button {
+    background-color: #444; /* Set button background color to dark gray (#444) */
+    color: #fff; /* Set text color to white (#fff) */
+    font-size: 16px; /* Set font size to 16 pixels */
+    padding: 10px 20px; /* Add padding to the buttons */
+    margin: 5px; /* Add margin around the buttons */
+    border: none; /* Remove button borders */
+    border-radius: 5px; /* Round the corners of the buttons */
+    cursor: pointer; /* Change cursor to a pointer when hovering over buttons */
+    transition: background-color 0.3s; /* Apply a smooth background color transition on hover */
+}
+
+/* Change button background color to darker gray (#666) on hover */
+.buttons button:hover {
+    background-color: #666;
+}
+
+/* Style input elements within the 'notification' class */
+.notification input {
+    font-size: 16px; /* Set font size to 16 pixels */
+    padding: 10px; /* Add padding to the input field */
+    border: none; /* Remove input field borders */
+    border-radius: 5px; /* Round the corners of the input field */
+    margin-right: 10px; /* Add right margin to separate input and buttons */
+}
+
+/* Style buttons within the 'notification' class */
+.notification button {
+    background-color: #666; /* Set button background color to dark gray (#666) */
+    color: #fff; /* Set text color to white (#fff) */
+    font-size: 16px; /* Set font size to 16 pixels */
+    padding: 10px 20px; /* Add padding to the buttons */
+    border: none; /* Remove button borders */
+    border-radius: 5px; /* Round the corners of the buttons */
+    cursor: pointer; /* Change cursor to a pointer when hovering over buttons */
+    transition: background-color 0.3s; /* Apply a smooth background color transition on hover */
+}
+
+/* Change button background color to a slightly lighter gray (#888) on hover */
+.notification button:hover {
+    background-color: #888;
+}

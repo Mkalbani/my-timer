@@ -1,0 +1,41 @@
+<!DOCTYPE html> <!-- This declares the document type as HTML5 -->
+
+<html>
+<head>
+    <title>Time Management App</title> <!-- This sets the title of the web page -->
+    
+    <!-- This links an external CSS stylesheet named 'style.css' -->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+    
+    <!-- This includes the jQuery library from an external source -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="container"> <!-- This creates a container for page content -->
+        <h1>Time Management App</h1> <!-- This displays a heading with the app's name -->
+        
+        <!-- This div contains the stopwatch and buttons -->
+        <div class="stopwatch">
+            <!-- This displays the current time in the stopwatch -->
+            <div id="display">00:00:00</div>
+            
+            <!-- This div contains buttons for starting, stopping, and resetting the timer -->
+            <div class="buttons">
+                <button id="start">Start</button> <!-- Start button -->
+                <button id="stop">Stop</button>   <!-- Stop button -->
+                <button id="reset">Reset</button> <!-- Reset button -->
+            </div>
+            
+            <!-- This div contains elements for setting a notification time -->
+            <div class="notification">
+                <input type="number" id="notify-time" placeholder="Set time (minutes)"> <!-- Input field for notification time -->
+                <button id="set-notify">Set Notification</button> <!-- Button to set notification -->
+                <button id="clear-notify">Clear Notification</button> <!-- Button to clear notification -->
+            </div>
+        </div>
+    </div>
+    
+    <!-- This includes an external JavaScript file named 'script.js' -->
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

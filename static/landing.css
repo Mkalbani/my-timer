@@ -1,0 +1,152 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0A192F;
+    color: #FFFFFF;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background-color: #161D2E;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h1 {
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    font-size: 16px;
+}
+
+nav ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #4C6EF5;
+}
+
+/* Hero Section */
+#hero {
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 120px 0;
+}
+
+#hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #4C6EF5;
+    color: #FFFFFF;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #354AFC;
+}
+
+/* Features Section */
+#features {
+    background-color: #10161E;
+    padding: 80px 0;
+    text-align: center;
+}
+
+#features h2 {
+    font-size: 36px;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+.feature {
+    margin-bottom: 40px;
+}
+
+.feature h3 {
+    font-size: 24px;
+    color: #4C6EF5;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    font-size: 18px;
+}
+
+
+/* Contact Section */
+#contact {
+    background-color: #10161E;
+    padding: 80px 0;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 36px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+#contact p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+/* Footer */
+footer {
+    background-color: #0A192F;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+/* Responsive styles (add as needed) */
+@media screen and (max-width: 768px) {
+    /* Add responsive styles here */
+}
